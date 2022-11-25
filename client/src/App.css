@@ -1,0 +1,31 @@
+.main{
+  padding: 100px;
+}
+.btnn{
+  display: flex;
+  justify-content: end;
+  padding: 20px 0px;
+}
+l{
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.small_table{
+  display: none;
+}
+
+@media(max-width:900px){
+  .btnn{
+    justify-content: center;
+  }
+  .big_table{
+    display: none;
+  }
+  .small_table{
+    display: block;
+  }
+  .main{
+    padding: 50px;
+  }
+}
